@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="#aab0f2"
+    tools:context=".EntryActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Entry Management Software."
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fadingEdge="vertical"
+        android:padding="10dp"
+        android:text="  Check-in  Form"
+        android:textColorHighlight="#00636C8A"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-medium" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:fadingEdge="vertical"
+        android:padding="10dp"
+        android:text="Check-out FORM"
+        android:textColorHighlight="#00636C8A"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        app:fontFamily="sans-serif-medium" />
+
+</LinearLayout>

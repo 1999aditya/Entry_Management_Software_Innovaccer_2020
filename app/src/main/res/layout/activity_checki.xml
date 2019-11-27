@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:background="#aab0f2"
+    tools:context=".Check">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:text=" Do Your Entry "
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+
+    <EditText
+        android:id="@+id/namev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Guest's Name"
+        android:inputType="textFilter|textNoSuggestions"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <EditText
+        android:id="@+id/mobv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Guest's Mobile Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <EditText
+        android:id="@+id/emailv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Guest's Email Address"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+
+    <EditText
+        android:id="@+id/nameh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Host's Name"
+        android:inputType="textFilter|textNoSuggestions"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <EditText
+        android:id="@+id/mobh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Host's Mobile Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <EditText
+        android:id="@+id/emailh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Host's Email Address"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Host's Address"
+        android:inputType="textFilter|textNoSuggestions"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fadingEdge="vertical"
+        android:padding="10dp"
+        android:text="Check-IN"
+        android:textColorHighlight="#00636C8A"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-medium" />
+
+
+</LinearLayout>

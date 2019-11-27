@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aab0f2"
+    android:orientation="vertical"
+    android:padding="7dp"
+    tools:context=".Checkout">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:text=" Take Your Exit "
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <EditText
+        android:id="@+id/mobv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:hint="Guest's Mobile Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium" />
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#ffffff"
+            android:padding="8dp"
+            android:text="Guest's Details"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/mob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/intime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/outtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/host"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/hosta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-medium" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fadingEdge="vertical"
+        android:padding="10dp"
+        android:text="Check Out"
+        android:textColorHighlight="#00636C8A"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="  Clear  "
+        android:background="#ffffff"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-medium" />
+
+
+</LinearLayout>
