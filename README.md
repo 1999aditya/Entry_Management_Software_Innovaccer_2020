@@ -1,13 +1,4 @@
-# Entry Management System
-
-Entry Management Software 
-(Innovaccer Summer Geeks SDE Intern 2020 assignment).
- 
-
-## Problem Statement
-
-Given the visitors in office and outside, there is a need for an 
-__*Entry Management Software*__ which can notify the host when a visitor does check-in, by sending them an E-Mail as well as a SMS. Similarly, visitor must get an Email when they do check-out.
+# Visitor Tracker
 
 ## Demo Video
 [Watch the video here.](https://youtu.be/sGesUCM-2Y8)
